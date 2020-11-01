@@ -1,0 +1,52 @@
+{
+  "AudioDescriptions": [
+    {
+      "AudioTypeControl": "FOLLOW_INPUT",
+      "LanguageCodeControl": "FOLLOW_INPUT",
+      "Name": "audio_ky7bwo"
+    }
+  ],
+  "CaptionDescriptions": [],
+  "OutputGroups": [
+    {
+      "OutputGroupSettings": {
+        "ArchiveGroupSettings": {
+          "Destination": {
+            "DestinationRefId": "destination1"
+          },
+          "RolloverInterval": 1800
+        }
+      },
+      "Name": "backyard",
+      "Outputs": [
+        {
+          "OutputSettings": {
+            "ArchiveOutputSettings": {
+              "NameModifier": "_1",
+              "ContainerSettings": {
+                "M2tsSettings": {}
+              }
+            }
+          },
+          "OutputName": "b51qox",
+          "VideoDescriptionName": "video_9mt5fs",
+          "AudioDescriptionNames": [
+            "audio_ky7bwo"
+          ],
+          "CaptionDescriptionNames": []
+        }
+      ]
+    }
+  ],
+  "TimecodeConfig": {
+    "Source": "EMBEDDED"
+  },
+  "VideoDescriptions": [
+    {
+      "Name": "video_9mt5fs",
+      "RespondToAfd": "NONE",
+      "Sharpness": 50,
+      "ScalingBehavior": "DEFAULT"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "AudioDescriptions": [
+    {
+      "AudioTypeControl": "FOLLOW_INPUT",
+      "LanguageCodeControl": "FOLLOW_INPUT",
+      "Name": "audio_62n7pi"
+    }
+  ],
+  "CaptionDescriptions": [],
+  "OutputGroups": [
+    {
+      "OutputGroupSettings": {
+        "HlsGroupSettings": {
+          "AdMarkers": [],
+          "CaptionLanguageSetting": "OMIT",
+          "CaptionLanguageMappings": [],
+          "InputLossAction": "EMIT_OUTPUT",
+          "ManifestCompression": "NONE",
+          "Destination": {
+            "DestinationRefId": "destination1"
+          },
+          "IvInManifest": "INCLUDE",
+          "IvSource": "FOLLOWS_SEGMENT_NUMBER",
+          "ClientCache": "ENABLED",
+          "TsFileMode": "SEGMENTED_FILES",
+          "ManifestDurationFormat": "FLOATING_POINT",
+          "SegmentationMode": "USE_SEGMENT_DURATION",
+          "RedundantManifest": "DISABLED",
+          "OutputSelection": "MANIFESTS_AND_SEGMENTS",
+          "StreamInfResolution": "INCLUDE",
+          "IFrameOnlyPlaylists": "DISABLED",
+          "IndexNSegments": 10,
+          "ProgramDateTime": "EXCLUDE",
+          "ProgramDateTimePeriod": 600,
+          "KeepSegments": 21,
+          "SegmentLength": 10,
+          "TimedMetadataId3Frame": "PRIV",
+          "TimedMetadataId3Period": 10,
+          "HlsId3SegmentTagging": "DISABLED",
+          "CodecSpecification": "RFC_4281",
+          "DirectoryStructure": "SINGLE_DIRECTORY",
+          "SegmentsPerSubdirectory": 10000,
+          "Mode": "LIVE"
+        }
+      },
+      "Name": "backyard",
+      "Outputs": [
+        {
+          "OutputSettings": {
+            "HlsOutputSettings": {
+              "HlsSettings": {
+                "StandardHlsSettings": {
+                  "M3u8Settings": {},
+                  "AudioRenditionSets": "program_audio"
+                }
+              },
+              "H265PackagingType": "HVC1"
+            }
+          },
+          "OutputName": "40salo",
+          "VideoDescriptionName": "video_uhjsa8",
+          "AudioDescriptionNames": [
+            "audio_62n7pi"
+          ],
+          "CaptionDescriptionNames": []
+        }
+      ]
+    }
+  ],
+  "TimecodeConfig": {
+    "Source": "EMBEDDED"
+  },
+  "VideoDescriptions": [
+    {
+      "Name": "video_uhjsa8",
+      "RespondToAfd": "NONE",
+      "Sharpness": 50,
+      "ScalingBehavior": "DEFAULT"
+    }
+  ]
+}
